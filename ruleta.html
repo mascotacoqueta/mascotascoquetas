@@ -1,0 +1,211 @@
+<!DOCTYPE html >
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ruleta de Premios</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="mascotasrullet/styles/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="mascotasrullet/dist/jquery.slotmachine.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="mascotasrullet/dist/slotmachine.js"></script>
+    <script src="mascotasrullet/dist/jquery.slotmachine.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="header-line"></div>
+
+    <!-- Flight example -->
+    <div id="plane">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-md-5 offset-sm-1 offset-md-1">
+            
+          </div>
+          <div class="col-sm-10 col-md-6 offset-sm-1 offset-md-0">
+            <div class="well content">
+              <p>Membresias</p>
+
+              <div id="planeMachine">
+                <div class="text-center">
+                  Alimento <span class="badge">/mes <i class="fas fa-money-bill-alt"></i></span>
+                </div>
+                <div class="text-center">
+                  Estetica <span class="badge">/Año <i class="fas fa-money-bill-alt"></i></span>
+                </div>
+                <div class="text-center">
+                  Veterinaria <span class="badge">/Año <i class="fas fa-money-bill-alt"></i></span>
+                </div>
+                <div class="text-center">
+                  Hotel <span class="badge">/año <i class="fas fa-money-bill-alt"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <script id="codeScript1">
+const planeMachine = document.querySelector('#planeMachine');
+new SlotMachine(planeMachine, {
+  active: 1,
+  delay: 450,
+  auto: 1500,
+  randomize() {
+    return this.nextIndex;
+  }
+});
+
+// Using jQuery
+$('#planeMachine2').slotMachine({
+  active: 1,
+  delay: 450,
+  auto: 1500,
+  randomize() {
+    return this.nextIndex;
+  }
+});
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+              
+
+    <!-- Watch example -->
+    
+    
+
+    <!-- triky -->
+   
+    <script id="codeScript4">
+const btnTriky = document.querySelector('#trikyShuffle');
+const elTriky = document.querySelector('#triky1');
+const triky = new SlotMachine(elTriky, {
+  randomize() {
+    return 0;
+  }
+});
+
+btnTriky.addEventListener('click', () => triky.shuffle(5));
+    </script>
+
+
+    <!-- Slot machine example -->
+    <div id="casino" style="padding-top:50px;">
+      <div class="content">
+        <h1>Mandanos tu foto</h1>
+
+        <div>
+          <div id="casino1" class="slotMachine" style="margin-left: -65px;">
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
+            <div class="slot slot4"></div>
+            <div class="slot slot5"></div>
+            <div class="slot slot6"></div>
+          </div>
+
+          <div id="casino2" class="slotMachine">
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
+            <div class="slot slot4"></div>
+            <div class="slot slot5"></div>
+            <div class="slot slot6"></div>
+          </div>
+
+          <div id="casino3" class="slotMachine">
+            <div class="slot slot1"></div>
+            <div class="slot slot2"></div>
+            <div class="slot slot3"></div>
+            <div class="slot slot4"></div>
+            <div class="slot slot5"></div>
+            <div class="slot slot6"></div>
+          </div>
+
+          <div class="btn-group btn-group-justified" role="group">
+            <button id="casinoShuffle" type="button" class="btn btn-primary btn-lg">Girar!</button>
+            <button id="casinoStop" type="button" class="btn btn-primary btn-lg">Alto!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-md-5 offset-sm-1 offset-md-1">
+            <pre><code id="codeBlock5"></code></pre>
+          </div>
+
+          <div class="col-sm-10 col-md-5 offset-sm-1 offset-md-0">
+            <pre><code id="codeBlock6"></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script id="codeScript5">
+let count = 0;
+const btnShuffle = document.querySelector('#casinoShuffle');
+const btnStop = document.querySelector('#casinoStop');
+const casino1 = document.querySelector('#casino1');
+const casino2 = document.querySelector('#casino2');
+const casino3 = document.querySelector('#casino3');
+const mCasino1 = new SlotMachine(casino1, {
+  active: 0,
+  delay: 500
+});
+const mCasino2 = new SlotMachine(casino2, {
+  active: 1,
+  delay: 500
+});
+const mCasino3 = new SlotMachine(casino3, {
+  active: 2,
+  delay: 500
+});
+    </script>
+    <script id="codeScript6">
+btnShuffle.addEventListener('click', () => {
+  count = 3;
+  mCasino1.shuffle(9999);
+  mCasino2.shuffle(9999);
+  mCasino3.shuffle(9999);
+});
+
+btnStop.addEventListener('click', () => {
+  switch(count) {
+    case 3:
+      mCasino1.stop();
+      break;
+    case 2:
+      mCasino2.stop();
+      break;
+    case 1:
+      mCasino3.stop();
+      break;
+  }
+  count--;
+});
+    </script>
+
+  <script>
+// Fill code blocks
+[1, 2, 3, 4, 5, 6].forEach((index) => {
+  const script = document.querySelector(`#codeScript${index}`);
+  const block = document.querySelector(`#codeBlock${index}`);
+
+  block.innerText = script.innerText.replace(/^\n|\n\s*$/g, '');
+});
+hljs.initHighlightingOnLoad();
+  </script>
+
+  </body>
+</html>

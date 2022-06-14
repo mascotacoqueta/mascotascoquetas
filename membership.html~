@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Membresía</title>
+    <link rel="icon" href="membvip/images/menu_logo.png">
+    <link rel="stylesheet" href="membvip/css/bootstrap.min.css">
+    <link rel="stylesheet" href="membvip/css/font-awesome.css">
+    <link rel="stylesheet" href="membvip/css/venobox.min.css">
+    <link rel="stylesheet" href="membvip/css/slick.css">
+    <link rel="stylesheet" href="membvip/css/style.css">
+</head>
+
+<body>
+    <!-- =======================================================
+                     Menu Part Starts
+         ======================================================= -->
+    <nav class="navbar navbar-expand-lg p-0 menu_head">
+        <div class="container px-lg-0">
+            <a class="navbar-brand py-0" href="#">
+                <img src="membvip/images/menu_logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  main_menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promotion.html">3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="membership.html">5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="404.html">7</a>
+                    </li>
+                </ul>
+                <a href="sign up.html">Signup</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about_page_banner">
+        <div class="container px-lg-0">
+            <div class="about_baner_headline">
+                <h3>Membresías Disponibles</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <div class="banner_menu">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Membresia</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Hotel Pension</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner_bottom">
+        <div class="container px-lg-0">
+            <div class="row mx-0">
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner border_radius">
+                        <div class="banner_reg">
+                            <h3>360 x 24hr</h3>
+                            <h4>Hotel $15hr</h4>
+                            <p>Casa con Juguetes & </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner">
+                        <div class="banner_reg">
+                            <h3>480 x 24hr</h3>
+                            <h4>Traveler $20hr</h4>
+                            <p>5 Paseos de 45min </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner border_radius_right">
+                        <div class="banner_reg">
+                            <h3>600 x 24hr</h3>
+                            <h4>Spa $25hr</h4>
+                            <p>Baño & Corte profesional,Facial <br>,Cepillado & Patas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership_page">
+        <div class="container px-lg-0">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Local</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Estancia</h3>
+                            <h4>$300</h4>
+                            <p>2 dias +12 horas</p>
+                            <ul>
+                                <li>Entra & Sale hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>60 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Local</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Amigo</h3>
+                            <h4>$409</h4>
+                            <p>3 dias +19 horas</p>
+                            <ul>
+                                <li>Entra & Sale hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>91 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Local</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Familiar</h3>
+                            <h4>$700</h4>
+                            <p>7 dias +12 horas</p>
+                            <ul>
+                                <li>Entra & Sale hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>180 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center member_mar_top">
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Transporte Incluido</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Estancia</h3>
+                            <h4>$700</h4>
+                            <p>2 dias +12 horas</p>
+                            <ul>
+                                <li>Vamos & Venimos hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>60 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Transporte Incluido</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Amigo</h3>
+                            <h4>$909</h4>
+                            <p>3 dias +19 horas</p>
+                            <ul>
+                                <li>Vamos & Venimos hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>91 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="pricing_inner">
+                        <div class="pricing_head">
+                            <h3>Transporte Incluido</h3>
+                        </div>
+                        <div class="pricing_main">
+                            <h3>Plan Familiar</h3>
+                            <h4>$1475</h4>
+                            <p>7 dias +12 horas</p>
+                            <ul>
+                                <li>Vamos & Venimos hasta cumplir su tiempo</li>
+                                <li>2 Paseos al dia de 30min</li>
+                                <li>Baño en seco</li>
+                                <li>Convive con más Perritos</li>
+                                <li>Casa,Juguetes,Fotos & Videos</li>
+                                <li>180 horas</li>
+                            </ul>
+                            <div class="pricing_btn">
+                                <a href="#">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact_part">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact_head">
+                        <h3>Subscribe for Offers</h3>
+                    </div>
+                    <div class="contact_form">
+                        <form action="">
+                            <input type="email" name="" id="" placeholder="Your e-mail here">
+                            <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="contact_head">
+                        <h3>Metodo de Pago</h3>
+                    </div>
+                    <div class="pay_option">
+                        <ul>
+                            <li><img src="membvip/images/paycard1.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard2.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard3.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard4.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard5.png" alt="img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_part">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer_headline">
+                        <h3>Dinamicas de Redes</h3>
+                    </div>
+                    <div class="jacpot_det">
+                        <p>Redes Sociales con catálogos disponibles.
+                        </p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/Mascotas-Coquetas-107367191638056/?ref=pages_you_manage"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/mas.cotitas_coquetas/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://t.me/mascotascoquetas"><i class="fab fa-telegram"></i></a></li>
+                            <li><a href="https://wa.me/message/WFLUSABQPFRQO1"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+      		    <div class="audioembed">
+           			<audio controls="true" autoplay="true" src="audio.mp3"  onloadeddata="setLowVolume()" id="audio1">
+        			 </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_headline">
+                        <h3>Ayuda</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="footer_link">
+                                <ul>
+	                					<li><a href="https://telegra.ph/Informaci%C3%B3n-de-compra-03-25" >Informacion de Compra</a></li>
+	                					<li><a href="https://telegra.ph/Cambios-y-reembolsos-y-cancelaciones-03-25" >Reembolsos &amp; Cambios</a></li>
+	                					<li><a href="https://telegra.ph/T%C3%A9rminos--condiciones-03-25" >Terminos &amp; Condiciones</a></li>
+	                					<li><a href="https://telegra.ph/Pol%C3%ADtica-de-privacidad-03-25" >Politica de Privacidad </a></li>
+	                					<li><a href="https://telegra.ph/Preguntas--Respuestas-Frecuentes-03-26" >FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="footer_link">
+                                <ul>
+	                					<li><a href="vip.html">Membresía</a></li>
+              						   <li><a href="https://www.mediafire.com/folder/onhdd3cno78z6/Catalogos">Catalogo PDF</a></li>
+                						<li><a href="tienda.html">Tienda en Linea</a></li>
+                						<li><a href="http://eepurl.com/hMOGdH">Inscríbete</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="footer_headline">
+                        <h3>Informacion de Seguridad</h3>
+                    </div>
+                    <div class="footer_img">
+                        <img src="membvip/images/foot_icon1.png" alt="footer">
+                        <p>Pagos Seguros </p>
+                    </div>
+                    <div class="footer_img footer_mar_top">
+                        <img src="membvip/images/foot_icon2.png" alt="footer">
+                        <p>203 Membresias Vendidas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center text-danger">
+                    <div class="footer_warring">
+                        <p>Copyright &copy;2022 Todos los derechos reservados | Por Jeny Ocampo <i class="fa fa-heart-o" aria-hidden="true"></i> con <a href="https://utopiaartificial.github.io/" target="_blank">UtopiaArtificial</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect">
+            <img src="membvip/images/shape.png" alt="img">
+        </div>
+    </footer>
+    <!-- =======================================================
+                           Footer Part Ends
+         ======================================================= -->
+    <script src="membvip/js/jquery-1.12.4.min.js"></script>
+    <script src="membvip/js/popper.min.js"></script>
+    <script src="membvip/js/bootstrap.min.js"></script>
+    <script src="membvip/js/venobox.min.js"></script>
+    <script src="membvip/js/slick.min.js"></script>
+    <script src="membvip/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Membresía Grooming</title>
+    <link rel="icon" href="membvip/images/menu_logo.png">
+    <link rel="stylesheet" href="membvip/css/bootstrap.min.css">
+    <link rel="stylesheet" href="membvip/css/font-awesome.css">
+    <link rel="stylesheet" href="membvip/css/venobox.min.css">
+    <link rel="stylesheet" href="membvip/css/slick.css">
+    <link rel="stylesheet" href="membvip/css/style.css">
+</head>
+
+<body>
+    <!-- =======================================================
+                     Menu Part Starts
+         ======================================================= -->
+    <nav class="navbar navbar-expand-lg p-0 menu_head">
+        <div class="container px-lg-0">
+            <a class="navbar-brand py-0" href="#">
+                <img src="membvip/images/menu_logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  main_menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="test/index.html">Alimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotel.html">Hotel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="veterinaria.html">Veterinaria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="btydog.html">Grooming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.mediafire.com/folder/onhdd3cno78z6/Catalogos">Catalogo PDF</a>
+                    </li>
+                </ul>
+                <a href="tienda.html">Tienda</a>
+                <a href="http://eepurl.com/hMOGdH">Inscríbete</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about_page_banner">
+        <div class="container px-lg-0">
+            <div class="about_baner_headline">
+                <h3>Membresías Disponibles</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center">
+                    <div class="banner_menu">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="vip.html">Membresia</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Grooming</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner_bottom">
+        <div class="container px-lg-0">
+            <div class="row mx-0">
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner border_radius">
+                        <div class="banner_reg">
+                            <h3>Basico</a></h3>
+                            <h4>Baño & Corte</h4>
+                            <p><a href="https://buy.stripe.com/8wM9Bqb6nfHvfza5pD">Chico $3360</a></p>
+                            <p><a href="https://buy.stripe.com/dR614U6Q7anbbiU2ds">Mediano $3600</a></p>
+                            <p><a href="https://buy.stripe.com/9AQeVK2zR66VaeQf0f">Grande $4020</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner">
+                        <div class="banner_reg">
+                            <h3>SPA</a></h3>
+                            <h4>Baño & Corte +Spa</h4>
+                            <p><a href="https://buy.stripe.com/bIY6pe0rJ0MBcmY05m">Chico $4044</a></p>
+                            <p><a href="https://buy.stripe.com/aEU9Bqdev0MBev619r">Mediano $4404</a></p>
+                            <p><a href="https://buy.stripe.com/9AQeVK2zR66VaeQf0f">Grande $5040</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center px-lg-0">
+                    <div class="banner_inner border_radius_right">
+                        <div class="banner_reg">
+                            <h3>Profesional</a></h3>
+                            <h4>+Shampoo a legir</h4>
+                            <p><a href="https://buy.stripe.com/8wM7ticar1QF2Mo2dx">Chico $4187</a></p>
+                            <p><a href="https://buy.stripe.com/7sI7tigqH8f3aeQaK4">Mediano $5046</a></p>
+                            <p><a href="https://buy.stripe.com/4gw4h6dev8f386If0l">Grande $5353</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership_page">
+
+    </section>
+
+    <section id="contact_part">
+        <div class="container px-lg-0">
+            <div class="row">
+           
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="contact_head">
+                        <h3>Metodo de Pago</h3>
+                    </div>
+                    <div class="pay_option">
+                        <ul>
+                            <li><img src="membvip/images/paycard1.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard2.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard3.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard4.png" alt="img"></li>
+                            <li><img src="membvip/images/paycard5.png" alt="img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer_part">
+        <div class="container px-lg-0">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer_headline">
+                        <h3>Dinamicas de Redes</h3>
+                    </div>
+                    <div class="jacpot_det">
+                        <p>Redes Sociales con catálogos disponibles.
+                        </p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/Mascotas-Coquetas-107367191638056/?ref=pages_you_manage"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/mas.cotitas_coquetas/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://t.me/mascotascoquetas"><i class="fab fa-telegram"></i></a></li>
+                            <li><a href="https://wa.me/message/WFLUSABQPFRQO1"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+      		    <div class="audioembed">
+           			<audio controls="true" autoplay="true" src="audio.mp3"  onloadeddata="setLowVolume()" id="audio1">
+        			 </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer_headline">
+                        <h3>Ayuda</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="footer_link">
+                                <ul>
+	                					<li><a href="https://telegra.ph/Informaci%C3%B3n-de-compra-03-25" >Informacion de Compra</a></li>
+	                					<li><a href="https://telegra.ph/Cambios-y-reembolsos-y-cancelaciones-03-25" >Reembolsos &amp; Cambios</a></li>
+	                					<li><a href="https://telegra.ph/T%C3%A9rminos--condiciones-03-25" >Terminos &amp; Condiciones</a></li>
+	                					<li><a href="https://telegra.ph/Pol%C3%ADtica-de-privacidad-03-25" >Politica de Privacidad </a></li>
+	                					<li><a href="https://telegra.ph/Preguntas--Respuestas-Frecuentes-03-26" >FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="footer_link">
+                                <ul>
+	                					<li><a href="vip.html">Membresía</a></li>
+              						   <li><a href="https://www.mediafire.com/folder/onhdd3cno78z6/Catalogos">Catalogo PDF</a></li>
+                						<li><a href="tienda.html">Tienda en Linea</a></li>
+                						<li><a href="http://eepurl.com/hMOGdH">Inscríbete</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="footer_headline">
+                        <h3>Informacion de Seguridad</h3>
+                    </div>
+                    <div class="footer_img">
+                        <img src="membvip/images/foot_icon1.png" alt="footer">
+                        <p>Pagos Seguros </p>
+                    </div>
+                    <div class="footer_img footer_mar_top">
+                        <img src="membvip/images/foot_icon2.png" alt="footer">
+                        <p>203 Membresias Vendidas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center text-danger">
+                    <div class="footer_warring">
+                        <p>Copyright &copy;2022 Todos los derechos reservados | Por Jeny Ocampo <i class="fa fa-heart-o" aria-hidden="true"></i> con <a href="https://utopiaartificial.github.io/" target="_blank">UtopiaArtificial</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect">
+            <img src="membvip/images/shape.png" alt="img">
+        </div>
+    </footer>
+    <!-- =======================================================
+                           Footer Part Ends
+         ======================================================= -->
+    <script src="membvip/js/jquery-1.12.4.min.js"></script>
+    <script src="membvip/js/popper.min.js"></script>
+    <script src="membvip/js/bootstrap.min.js"></script>
+    <script src="membvip/js/venobox.min.js"></script>
+    <script src="membvip/js/slick.min.js"></script>
+    <script src="membvip/js/script.js"></script>
+</body>
+
+</html>

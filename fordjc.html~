@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Verificacion JC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="goto-here">
+	<div class="py-1 bg-black">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+	    		<div class="col-lg-12 d-block">
+		    		<div class="row d-flex">
+		    			<div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"></div>
+						    <span class="text">JaesClub</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+						    <span class="text">jaesclub@protonmail.com</span>
+					    </div>
+					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+						    <span class="text">Precios &amp; Envio Rapido</span>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">JaesClub </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contacto</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="https://vm.tiktok.com/ZM8gXn1ho/">TikTok</a>
+                <a class="dropdown-item" href="https://www.facebook.com/Jaesclub-111181357407685">Facebook</a>
+                <a class="dropdown-item" href="https://www.instagram.com/enrique_jaime_jc/?utm_source=qr">Instagram</a>
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCYEjFf05JUddQHSwho19LzQ">YouTube</a>
+                <a class="dropdown-item" href="https://t.me/EnriqueJaime">Telegram</a>
+              </div>
+            </li>
+	          <li class="nav-item"><a href="iglu.html" class="nav-link">Iglú</a></li>
+	          <li class="nav-item"><a href="Industia.html" class="nav-link">Industrias</a></li>
+	          <li class="nav-item"><a href="http://eepurl.com/hNVQ4f" class="nav-link">Suscribete</a></li>
+	          <li class="nav-item cta cta-colored"><a href="fordjc.html" class="nav-link"><span class="icon-shopping_cart"></span>Carrito</a></li>
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+    <div class="hero-wrap hero-bread" style="background-image: url('img/Fondo1.png');">
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Jaes</a></span> <span>Club</span></p>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+		<section>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 ftco-animate">
+	          <div class="row mt-5 pt-3 d-flex">
+	          	<div class="col-md-6 d-flex">
+        
+
+
+	<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          // Variables
+          const baseDeDatos = [
+              {
+                  id: 1,
+                  nombre: 'Patata',
+                  precio: 1,
+                  imagen: 'img/6.png'
+              },
+              {
+                  id: 2,
+                  nombre: 'Cebolla',
+                  precio: 1.2,
+                  imagen: 'img/7.png'
+              },
+              {
+                  id: 3,
+                  nombre: 'Calabacin',
+                  precio: 2.1,
+                  imagen: 'img/8.png'
+              },
+              {
+                  id: 4,
+                  nombre: 'Fresas',
+                  precio: 0.6,
+                  imagen: 'fresas.jpg'
+              },
+ {
+                  id: 5,
+                  nombre: 'j',
+                  precio: 1,
+                  imagen: 'img/6.png'
+              },
+              {
+                  id: 6,
+                  nombre: 'yt',
+                  precio: 1.2,
+                  imagen: 'cebolla.jpg'
+              },
+              {
+                  id: 7,
+                  nombre: 'cy',
+                  precio: 2.1,
+                  imagen: 'calabacin.jpg'
+              },
+              {
+                  id: 8,
+                  nombre: 'lo',
+                  precio: 0.6,
+                  imagen: 'fresas.jpg'
+              }
+          ];
+
+          let carrito = [];
+          const divisa = '$';
+          const DOMitems = document.querySelector('#items');
+          const DOMcarrito = document.querySelector('#carrito');
+          const DOMtotal = document.querySelector('#total');
+          const DOMbotonVaciar = document.querySelector('#boton-vaciar');
+
+          // Funciones
+
+          /**
+          * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
+          */
+          function renderizarProductos() {
+              baseDeDatos.forEach((info) => {
+                  // Estructura
+                  const miNodo = document.createElement('div');
+                  miNodo.classList.add('card', 'col-sm-8');
+                  // Body
+                  const miNodoCardBody = document.createElement('div');
+                  miNodoCardBody.classList.add('card-body');
+                  // Titulo
+                  const miNodoTitle = document.createElement('h5');
+                  miNodoTitle.classList.add('card-title');
+                  miNodoTitle.textContent = info.nombre;
+                  // Imagen
+                  const miNodoImagen = document.createElement('img');
+                  miNodoImagen.classList.add('img-fluid');
+                  miNodoImagen.setAttribute('src', info.imagen);
+                  // Precio
+                  const miNodoPrecio = document.createElement('p');
+                  miNodoPrecio.classList.add('card-text');
+                  miNodoPrecio.textContent = `${info.precio}${divisa}`;
+                  // Boton 
+                  const miNodoBoton = document.createElement('button');
+                  miNodoBoton.classList.add('btn', 'btn-primary');
+                  miNodoBoton.textContent = '+';
+                  miNodoBoton.setAttribute('marcador', info.id);
+                  miNodoBoton.addEventListener('click', anyadirProductoAlCarrito);
+                  // Insertamos
+                  miNodoCardBody.appendChild(miNodoImagen);
+                  miNodoCardBody.appendChild(miNodoTitle);
+                  miNodoCardBody.appendChild(miNodoPrecio);
+                  miNodoCardBody.appendChild(miNodoBoton);
+                  miNodo.appendChild(miNodoCardBody);
+                  DOMitems.appendChild(miNodo);
+              });
+          }
+
+          /**
+          * Evento para añadir un producto al carrito de la compra
+          */
+          function anyadirProductoAlCarrito(evento) {
+              // Anyadimos el Nodo a nuestro carrito
+              carrito.push(evento.target.getAttribute('marcador'))
+              // Actualizamos el carrito 
+              renderizarCarrito();
+
+          }
+
+          /**
+          * Dibuja todos los productos guardados en el carrito
+          */
+          function renderizarCarrito() {
+              // Vaciamos todo el html
+              DOMcarrito.textContent = '';
+              // Quitamos los duplicados
+              const carritoSinDuplicados = [...new Set(carrito)];
+              // Generamos los Nodos a partir de carrito
+              carritoSinDuplicados.forEach((item) => {
+                  // Obtenemos el item que necesitamos de la variable base de datos
+                  const miItem = baseDeDatos.filter((itemBaseDatos) => {
+                      // ¿Coincide las id? Solo puede existir un caso
+                      return itemBaseDatos.id === parseInt(item);
+                  });
+                  // Cuenta el número de veces que se repite el producto
+                  const numeroUnidadesItem = carrito.reduce((total, itemId) => {
+                      // ¿Coincide las id? Incremento el contador, en caso contrario no mantengo
+                      return itemId === item ? total += 1 : total;
+                  }, 0);
+                  // Creamos el nodo del item del carrito
+                  const miNodo = document.createElement('li');
+                  miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
+                  miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
+                  // Boton de borrar
+                  const miBoton = document.createElement('button');
+                  miBoton.classList.add('btn', 'btn-danger', 'mx-5');
+                  miBoton.textContent = 'X';
+                  miBoton.style.marginLeft = '1rem';
+                  miBoton.dataset.item = item;
+                  miBoton.addEventListener('click', borrarItemCarrito);
+                  // Mezclamos nodos
+                  miNodo.appendChild(miBoton);
+                  DOMcarrito.appendChild(miNodo);
+              });
+             // Renderizamos el precio total en el HTML
+             DOMtotal.textContent = calcularTotal();
+          }
+
+          /**
+          * Evento para borrar un elemento del carrito
+          */
+          function borrarItemCarrito(evento) {
+              // Obtenemos el producto ID que hay en el boton pulsado
+              const id = evento.target.dataset.item;
+              // Borramos todos los productos
+              carrito = carrito.filter((carritoId) => {
+                  return carritoId !== id;
+              });
+              // volvemos a renderizar
+              renderizarCarrito();
+          }
+
+          /**
+           * Calcula el precio total teniendo en cuenta los productos repetidos
+           */
+          function calcularTotal() {
+              // Recorremos el array del carrito 
+              return carrito.reduce((total, item) => {
+                  // De cada elemento obtenemos su precio
+                  const miItem = baseDeDatos.filter((itemBaseDatos) => {
+                      return itemBaseDatos.id === parseInt(item);
+                  });
+                  // Los sumamos al total
+                  return total + miItem[0].precio;
+              }, 0).toFixed(2);
+          }
+
+          /**
+          * Varia el carrito y vuelve a dibujarlo
+          */
+          function vaciarCarrito() {
+              // Limpiamos los productos guardados
+              carrito = [];
+              // Renderizamos los cambios
+              renderizarCarrito();
+          }
+
+          // Eventos
+          DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+
+          // Inicio
+          renderizarProductos();
+          renderizarCarrito();
+        });
+    </script>
+	</head>
+	<body>
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="ftco-section bg-light"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+        </div>
+    </div>
+	</body>
+	          	</div>
+	          	<div class="col-md-6">
+	          		<div class="cart-detail bg-light p-3 p-md-4">
+	          			<h3 class="billing-heading mb-4">Metodos de Pago</h3>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Transferencia bancaria Directa</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Mercado Pago</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="checkbox">
+											   <label><input type="checkbox" value="" class="mr-2">Acepto Terminos & Condiciones</label>
+											</div>
+										</div>
+									</div>
+									<p><a href="https://telegra.ph/Metodos-de-Pago-12-17"class="btn btn-primary py-3 px-4">Continuar</a></p>
+								</div>
+  								<form name="calculator">
+							    <h3>Calculadora <a href="index.html">JaesClub</a></h3>
+    							 <p>Haz algun calculo para ver el resultado.</p>
+ 							    <input type="textfield" name="ans" value="">
+							    <br>
+							    <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+							    <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+							    <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+							    <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+   							 <br>
+							    <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+							    <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+							    <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+							    <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+							    <br>
+							    <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+							    <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+							    <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+							    <input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+							    <br>
+							    <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+							    <input type="reset" value="c">
+							    <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+							    <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+					    </form>
+	          	</div>
+	          </div>
+          </div> <!-- .col-md-8 -->
+        </div>
+      </div>
+    </section> <!-- .section -->
+		
+
+    <section class="ftco-gallery">
+    	<div class="container">
+    		<div class="row justify-content-center">
+    			<div class="col-md-8 heading-section text-center mb-4 ftco-animate">
+            <h2 class="mb-4">Siguenos en Instagram</h2>
+            <p>& ayudanos a albergar perros en situacion de calle.</p>
+          </div>
+    		</div>
+    	</div>
+    	<div class="container-fluid px-0">
+    		<div class="row no-gutters">
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst1.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst1.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst5.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst5.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst6.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst6.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst4.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst4.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst3.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst3.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-lg-2 ftco-animate">
+						<a href="img/inst2.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(img/inst2.png);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+      	<div class="row">
+      		<div class="mouse">
+						<a href="#" class="mouse-icon">
+							<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+						</a>
+					</div>
+      	</div>
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">+Catalogos</h2>
+              <p>Estan Redes Sociales con catálogos disponibles.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://t.me/mascotascoquetas"><span class="icon-telegram"></span></a></li>
+                <li class="ftco-animate"><a href="https://wa.me/message/WFLUSABQPFRQO1"><span class="icon-whatsapp"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/mas.cotitas_coquetas/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Menu</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://www.mediafire.com/folder/onhdd3cno78z6/Catalogos" class="py-2 d-block">Catalogo PDF</a></li>
+                <li><a href="tienda.html" class="py-2 d-block">Tienda en Linea</a></li>
+                <li><a href="http://eepurl.com/hMOGdH" class="py-2 d-block">Inscríbete</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Ayuda</h2>
+              <div class="d-flex">
+	              <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+	                <li><a href="https://telegra.ph/Informaci%C3%B3n-de-compra-03-25" class="py-2 d-block">Informacion de Compra</a></li>
+	                <li><a href="https://telegra.ph/Cambios-y-reembolsos-y-cancelaciones-03-25" class="py-2 d-block">Reembolsos &amp; Cambios</a></li>
+	                <li><a href="https://telegra.ph/T%C3%A9rminos--condiciones-03-25" class="py-2 d-block">Terminos &amp; Condiciones</a></li>
+	                <li><a href="https://telegra.ph/Pol%C3%ADtica-de-privacidad-03-25" class="py-2 d-block">Politica de Privacidad </a></li>
+	              </ul>
+	              <ul class="list-unstyled">
+	                <li><a href="https://telegra.ph/Preguntas--Respuestas-Frecuentes-03-26" class="py-2 d-block">FAQs</a></li>
+	                <li><a href="vip.html" class="py-2 d-block">Membresía</a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Tienes Preguntas ¿o u o?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Cuernavaca,Mor & CDMX</span></li>
+	                <li><a href="https://telegram.org/"><span class="icon icon-phone"></span><span class="text">7771639437</span></a></li>
+	                <li><a href="https://protonmail.com/es/"><span class="icon icon-envelope"></span><span class="text">mascotascoquetas_ms@protonmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+				
+                  Copyright &copy;2021 Todos los derechos reservados | Por Jeny Ocampo <i class="fa fa-heart-o" aria-hidden="true"></i> con <a href="https://utopiaartificial.github.io/" target="_blank">UtopiaArtificial</a>
+			
+						</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+		
+	
+            function calcularMm() {
+                var a = document.getElementById('a').value;
+                var b = document.getElementById('b').value;
+                var c = document.getElementById('c').value;
+                var d = document.getElementById('d').value;
+                var e = document.getElementById('e').value;
+                var f = document.getElementById('f').value;
+                var g = document.getElementById('g').value;
+                var h = document.getElementById('h').value;
+                var i = document.getElementById('i').value;
+                var j = document.getElementById('j').value;
+                var k = document.getElementById('k').value;
+                var l = document.getElementById('l').value;
+                var m = document.getElementById('m').value;
+                var n = document.getElementById('n').value;
+                var o = document.getElementById('o').value;
+                var resultado = (a*1520) +(b*1650) +(c*2800) +(d*1240) +(e*375) +(f*720) +(g*60) +(h*30) +(i*48) +(j*135) +(k*330) +(l*150) +(m*345) +(n*1030) +(o*322);
+                document.getElementById('total').innerHTML = resultado;
+            }
+        
+	</script>
+    
+  </body>
+</html>

@@ -1,0 +1,1649 @@
+/* ============================================================
+                       Common css Starts
+   ============================================================ */
+body{font-size:0.8em;}
+sidebar{display:none;}
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@font-face {
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+    font-family: "Anton-Regular";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-Black.ttf);
+    font-family: "Nunito-Black";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-Bold.ttf);
+    font-family: "Nunito-Bold";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-ExtraBold.ttf);
+    font-family: "Nunito-ExtraBold";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-ExtraLight.ttf);
+    font-family: "Nunito-ExtraLight";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-Light.ttf);
+    font-family: "Nunito-Light";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+    font-family: "Nunito-Regular";
+}
+
+@font-face {
+    src: url(../fonts/Nunito/Nunito-SemiBold.ttf);
+    font-family: "Nunito-SemiBold";
+}
+
+/* ============================================================
+                       Common css Ends
+   ============================================================ */
+/* ============================================================
+                       Menu Part Starts
+   ============================================================ */
+
+.menu_head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+}
+
+.menu_head a.navbar-brand img {
+    height: 98px;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    padding: 0 !important;
+    color: #944bff;
+    font-size: 20px;
+    font-family: "Nunito-SemiBold";
+    margin-right: 18px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover {
+    color: #ff39dc;
+}
+
+.main_menu .navbar-nav {
+    margin-top: 30px;
+}
+
+.main_menu>a {
+    padding: 15px 30px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Anton-Regular";
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.main_menu>a:hover {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link.active {
+    color: #ff39dc !important;
+}
+
+/* ============================================================
+                       Menu Part Ends
+   ============================================================ */
+/* ============================================================
+                       Banner Part Starts
+   ============================================================ */
+#banner_part {
+    padding: 178px 0 172px;
+    background: #150035;
+}
+
+.banner_img img {
+    height: 600px;
+    position: absolute;
+    left: -124px;
+    top: -39px;
+}
+
+.banner_text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Nunito-Regular";
+    margin-top: 40px;
+}
+
+.banner_text h1 {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 53%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4d0148;
+    font-size: 330px;
+    font-family: "Anton-Regular";
+    margin-top: -43px;
+    margin-bottom: -30px;
+}
+
+.banner_text p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-Regular";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner_btn a {
+    padding: 15px 30px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Anton-Regular";
+}
+
+.banner_btn a:hover {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+/* ============================================================
+                       Banner Part Ends
+   ============================================================ */
+/* ============================================================
+                       Banner Bottom Part Starts
+   ============================================================ */
+
+.banner_inner {
+    position: absolute;
+    width: 100%;
+    top: -100px;
+    z-index: 11;
+    padding: 32px 39px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(left, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+}
+
+
+.banner_reg h3 {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d0148;
+    font-size: 50px;
+    font-family: "Anton-Regular";
+    margin-bottom: 15px;
+
+}
+
+.banner_reg h4 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Anton-Regular";
+}
+
+.banner_reg p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    margin-top: 10px;
+}
+
+
+
+
+.border_radius {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.border_radius_right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ============================================================
+                       Banner Bottom Part Ends
+   ============================================================ */
+/* ============================================================
+                       Game Part Starts
+   ============================================================ */
+
+#game_part {
+    padding: 180px 0 100px;
+    background: #0b001b;
+    margin-top: -10px;
+}
+
+.section_headline h3 {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-family: "Anton-Regular";
+}
+
+.game_img {
+    position: relative;
+}
+
+.game_img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 0, 53, 0.85);
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.game_img:hover .overlay {
+    opacity: 1;
+}
+
+.game_img .overlay h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Anton-Regular";
+}
+
+.game_img .overlay a {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Anton-Regular";
+}
+
+.game_img .overlay a:hover {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+.game_inner {
+    margin-top: 44px;
+}
+
+/* ============================================================
+                       Game Part Ends
+   ============================================================ */
+/* ============================================================
+                       Claim Part Starts
+   ============================================================ */
+#claim_part {
+    padding: 100px 0;
+    background: #150035;
+}
+
+.claim_text p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-Regular";
+    margin-top: 44px;
+}
+
+.claim_text p span {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.claim_mar {
+    margin-top: 40px;
+}
+
+/* ============================================================
+                       Claim Part Ends
+   ============================================================ */
+/* ============================================================
+                       Pricing Part Starts
+   ============================================================ */
+#pricing_part {
+    padding: 100px 0;
+    background: #0b001b;
+}
+
+.pricing_head h3 {
+    padding: 20px 0;
+    background: #a60084;
+    background: -moz-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.pricing_inner {
+    margin-top: -10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.pricing_inner:hover .pricing_head h3 {
+    opacity: 1;
+}
+
+.pricing_inner:hover {
+    transform: translateY(30px);
+}
+
+.pricing_main {
+    padding: 45px 0;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    margin-top: 7px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.pricing_main h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Anton-Regular";
+    padding-bottom: 10px;
+}
+
+.pricing_main h4 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Nunito-Bold";
+    padding-bottom: 5px;
+}
+
+.pricing_main p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Nunito-Regular";
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.pricing_main p::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 18px;
+    width: 100%;
+    height: 1px;
+    background: #0b001b;
+}
+
+.pricing_main ul li {
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Nunito-SemiBold";
+}
+
+
+.pricing_btn a {
+    padding: 15px 30px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    border-radius: 7px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Anton-Regular";
+}
+
+.pricing_main .pricing_btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.pricing_main:hover .pricing_btn a {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+/* ============================================================
+                       Pricing Part Ends
+   ============================================================ */
+/* ============================================================
+                       Tournament Part Starts
+   ============================================================ */
+#tournament_part {
+    padding: 100px 0;
+    background: #160036;
+}
+
+.accordian_inner {
+    margin-top: 70px;
+}
+
+.card-header {
+    background-color: #150035;
+    border: none;
+}
+
+.card {
+    border: 0;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+
+.btn-link.focus,
+.btn-link:focus {
+    text-decoration: none;
+}
+
+.tour_head button span {
+    color: #fffeff;
+    font-size: 20px;
+    font-family: "Nunito-Regular";
+}
+
+.tour_head {
+    position: relative;
+}
+
+.tour_head i {
+    position: absolute;
+    right: 0;
+    color: #fffeff;
+    font-size: 14px;
+}
+
+.tour_drop {
+    background-color: #150035;
+    border-radius: 0;
+}
+
+.tour_drop p {
+    color: #fffeff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-Regular";
+}
+
+.add_border {
+    border: 1px solid red;
+}
+
+
+.count_text h6 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Nunito-SemiBold";
+    margin-top: 80px;
+}
+
+.main {
+    display: inline-block;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Nunito-SemiBold";
+    color: #fdb125;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 2px;
+    margin-top: 60px;
+    border: 1px solid #fdb125;
+    margin-bottom: 45px;
+}
+
+.scroll_name p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    margin-bottom: 30px;
+}
+
+.scroll_name p:last-child {
+    margin-right: 20px;
+}
+
+.item_under {
+    position: relative;
+}
+
+.item_under::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 13px;
+    width: 100%;
+    height: 1px;
+    background: #290a59;
+}
+
+.item_under::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 14px;
+    width: 100%;
+    height: 2px;
+    background: #000000;
+}
+
+.scroll {
+    height: 280px;
+    overflow-y: hidden;
+}
+
+#ascrail2000 {
+    background: #290a59;
+    width: 10px !important;
+    border-radius: 5px;
+}
+
+#ascrail2000-hr {
+    display: none !important;
+}
+
+
+
+
+
+/* ============================================================
+                       Tournament Part Ends
+   ============================================================ */
+/* ============================================================
+                       Contact Part Starts
+   ============================================================ */
+#contact_part {
+    padding: 30px 0;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+}
+
+.contact_head h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Anton-Regular";
+}
+
+.contact_form form input {
+    width: 533px;
+    height: 38px;
+    background: transparent;
+    border: 1px solid #3a0090;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    padding-left: 15px;
+}
+
+.contact_form form input::placeholder {
+    color: #3a0090;
+    font-size: 14px;
+    font-family: "Nunito-Regular";
+}
+
+.contact_form form button {
+    background: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.contact_form form button:after {
+    position: absolute;
+    content: "";
+    left: -59px;
+    top: -4px;
+    width: 1px;
+    height: 35px;
+    background: #3a0090;
+}
+
+.contact_form form button i {
+    color: #3a0090;
+    font-size: 16px;
+    margin-left: -63px;
+}
+
+.contact_form button:focus {
+    outline: 0;
+}
+
+.pay_option ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.pay_option ul li {
+    margin-right: 15px;
+}
+
+/* ============================================================
+                       Contact Part Ends
+   ============================================================ */
+/* ============================================================
+                       Footer Part Starts
+   ============================================================ */
+#footer_part {
+    padding: 60px 0 25px;
+    background: #0b001b;
+    position: relative;
+}
+
+#footer_part:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 77px;
+    width: 100%;
+    height: 1px;
+    background: #290a59;
+}
+
+.footer_headline h3 {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Anton-Regular";
+}
+
+.jacpot_det p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-Regular";
+    margin-top: 25px;
+}
+
+.jacpot_det ul {
+    display: flex;
+    margin-top: 27px;
+}
+
+.jacpot_det ul li a i {
+    width: 50px;
+    height: 50px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+.jacpot_det ul li a i:hover {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+.footer_link ul {
+    margin-top: 25px;
+}
+
+.footer_link ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    margin-bottom: 20px;
+}
+
+.footer_img {
+    padding-left: 100px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.footer_img img {
+    position: absolute;
+    left: 0;
+}
+
+.footer_img p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-SemiBold";
+}
+
+.footer_mar_top {
+    margin-top: 50px;
+}
+
+.footer_warring p {
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+}
+
+
+.effect {
+    position: absolute;
+    top: 79%;
+    animation: move 10s infinite alternate-reverse linear;
+    z-index: 999;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 95%;
+    }
+}
+
+/* ============================================================
+                       Footer Part Ends
+   ============================================================ */
+
+/* ============================================================
+                       HOME PAGE ENDS 
+   ============================================================ */
+
+/* ============================================================
+                About Page Banner Part Starts
+   ============================================================ */
+#about_page_banner {
+    padding: 230px 0 213px;
+    background: #150035;
+}
+
+.about_baner_headline {
+    text-align: center;
+    margin-left: -56px;
+
+    margin-bottom: -11px;
+}
+
+.about_baner_headline h3 {
+    background: #fdb125;
+    background: -moz-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background: linear-gradient(to top, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdb125', endColorstr='#fcb100', GradientType=0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d0148;
+    font-size: 48px;
+    font-family: "Anton-Regular";
+}
+
+.banner_menu .breadcrumb {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.banner_menu nav ol li a {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Anton-Regular";
+}
+
+.banner_menu nav ol li.active {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Anton-Regular";
+}
+
+/* ============================================================
+                About Page Banner Part Ends
+   ============================================================ */
+/* ============================================================
+                       About Page Starts
+   ============================================================ */
+#play_part {
+    padding: 205px 0 60px;
+    background: #0b001b;
+    margin-top: -5px;
+}
+
+.banner_btn,
+.play_video_btn {
+    display: inline-block;
+}
+
+.play_text p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Nunito-Regular";
+}
+
+.play_text p span {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.banner_btn {
+    margin-right: 15px;
+}
+
+.play_video_btn a i {
+    height: 50px;
+    width: 50px;
+    background: #a60084;
+    background: -moz-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 6px 0px 0px #661355;
+    box-shadow: 0px 6px 0px 0px #661355;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.play_video_btn a {
+    color: #a60084;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+}
+
+.about_us_game {
+    padding: 100px 0 140px !important;
+    background: #150035 !important;
+}
+
+.play_slider ul li button {
+    font-size: 0;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 0;
+    background: #570dc8;
+    background: -moz-linear-gradient(top, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(top, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to bottom, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px #3a0090;
+    box-shadow: 0px 6px 0px 0px #3a0090;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.play_slider ul {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    z-index: 111;
+}
+
+.play_slider ul li.slick-active button {
+    height: 15px;
+    width: 15px;
+    background: #a60084;
+    background: -moz-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px #661355;
+    box-shadow: 0px 6px 0px 0px #661355;
+}
+
+/* ============================================================
+                       About Page Ends
+   ============================================================ */
+/* ============================================================
+                       Game Page Starts
+   ============================================================ */
+#game_page_part {
+    padding: 179px 0 100px;
+    background: #0b001b;
+    margin-top: -5px;
+}
+
+.game_page_mar {
+    margin-top: -18px;
+}
+
+/* ============================================================
+                       Game Page Ends
+   ============================================================ */
+/* ============================================================
+                    Membership page Starts
+   ============================================================ */
+#membership_page {
+    padding: 179px 0 100px;
+    background: #0b001b;
+    margin-top: -5px;
+}
+
+.member_mar_top {
+    margin-top: 30px;
+}
+
+/* ============================================================
+                    Membership page Ends
+   ============================================================ */
+/* ============================================================
+                    Contact Page Starts
+   ============================================================ */
+#contact_page_part {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 220px 0 100px;
+    margin-top: -5px;
+}
+
+.contact_page_icon i {
+    width: 100px;
+    height: 100px;
+    background: #570dc8;
+    background: -moz-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(bottom, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to top, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px #3A0090;
+    box-shadow: 0px 6px 0px 0px #3A0090;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.contact_page_details h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Anton-Regular";
+}
+
+.contact_page_details p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Nunito-Regular";
+    margin-top: 20px;
+}
+
+/* ============================================================
+                    Contact Page Ends
+   ============================================================ */
+/* ============================================================
+                       Error Page Starts
+   ============================================================ */
+#error_banner {
+    padding: 264px 0 94px;
+    background: #150035;
+}
+
+.error_btn_mar {
+    margin-top: 44px;
+}
+
+.menu_bg_error {
+    height: 160px;
+    background: #0b001b;
+}
+
+/* ============================================================
+                       Error Page Ends
+   ============================================================ */
+/* ============================================================
+                       Sign up page Starts
+   ============================================================ */
+#sign_up_page {
+    padding: 179px 0 100px;
+    background: #0b001b;
+    margin-top: -5px;
+}
+
+.sign_head h3 {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Anton-Regular";
+    margin-top: 10px;
+}
+
+.sign_head p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    margin-top: 8px;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.sign_head p::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -17px;
+    width: 60px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 7px;
+}
+
+.sign_up_form input {
+    width: 308px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Nunito-Regular";
+    margin-top: 5px;
+}
+
+.sign_up_form input::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Nunito-Regular";
+}
+
+.sign_up_form form i {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.email input {
+    width: 93%;
+    margin-top: 50px;
+}
+
+.email input::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Nunito-Regular";
+}
+
+.sign_up_form button {
+    display: block;
+    width: 96%;
+    height: 50px;
+    border: none;
+    background: #a60084;
+    background: -moz-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(bottom, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to top, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Anton-Regular";
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sign_up_social {
+    display: flex;
+    justify-content: right;
+}
+
+.sign_up_social ul {
+    display: flex;
+}
+
+.known_client p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+
+}
+
+.known_client p a {
+    color: #ff39dc;
+    margin-left: 5px;
+}
+
+.sign_up_social p {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Nunito-Regular";
+    margin-right: 20px;
+}
+
+.sign_up_social ul li a i {
+    height: 50px;
+    width: 50px;
+    background: #570dc8;
+    background: -moz-linear-gradient(top, #570dc8 0%, #9e4efc 100%);
+    background: -webkit-linear-gradient(top, #570dc8 0%, #9e4efc 100%);
+    background: linear-gradient(to bottom, #570dc8 0%, #9e4efc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#570dc8', endColorstr='#9e4efc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #3a0090;
+    box-shadow: 0px 7px 0px 0px #3a0090;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.sign_up_social ul li a i:after {
+    position: absolute;
+    content: "";
+    right: -16px;
+    top: 12px;
+    width: 3px;
+    height: 30px;
+    background: #330080;
+}
+
+.sign_up_social ul li:last-child a i:after {
+    display: none;
+}
+
+.sign_up_social ul li a i:hover {
+    background: #a60084;
+    background: -moz-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: -webkit-linear-gradient(top, #a60084 0%, #ff39dc 100%);
+    background: linear-gradient(to bottom, #a60084 0%, #ff39dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60084', endColorstr='#ff39dc', GradientType=0);
+    -webkit-box-shadow: 0px 7px 0px 0px #661355;
+    box-shadow: 0px 7px 0px 0px #661355;
+}
+
+.sign_mar_bottom {
+    margin-bottom: -40px !important;
+}
+
+
+/* ============================================================
+                       Sign up page Ends
+   ============================================================ */
+/* ============================================================
+                       Promotion Part Starts
+   ============================================================ */
+#promotion_part {
+    background: #150035;
+    margin-top: -5px;
+}
+
+.promo_banner {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 711px 0 100px;
+    position: relative;
+}
+
+.promo_banner_text h2 {
+    font-size: 103px;
+    font-weight: 400;
+    font-family: "Anton-Regular";
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    top: -423px;
+}
+
+.promo_details h1 {
+
+    font-size: 198px;
+    font-family: "Anton-Regular";
+    color: #fcb100;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+}
+
+.promo_details h2 {
+    font-size: 56px;
+    font-family: "Anton-Regular";
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.promo_details h2 span {
+    font-size: 91px;
+    display: block;
+}
+
+.promo_details {
+    margin-top: -526px !important;
+    margin-left: -62px;
+}
+
+.promo_details a {
+    padding: 14px 30px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9e4efc', endColorstr='#570dc8', GradientType=0);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Anton-Regular";
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.promo_details a:hover {
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+
+/* ============================================================
+                       Promotion Part Ends
+   ============================================================ */
+/* ============================================================
+                       Player Promo Part Starts
+   ============================================================ */
+#player_promo {
+    padding: 60px 0;
+    background: #0b001b;
+}
+
+.head_padd {
+    padding-top: 118px;
+}
+
+.player_promo_text p {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Nunito-Regular";
+    line-height: 26px;
+    padding-top: 40px;
+}
+
+.player_promo_text p span {
+    display: block;
+    padding-top: 24px;
+}
+
+.pro_player_offer {
+    position: relative;
+    height: 570px;
+}
+
+.pro_offer_inner {
+    position: relative;
+    width: 270px;
+}
+
+.pro_offer_inner .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.pro_offer_inner .overly h4 {
+    font-size: 24px;
+    font-family: "Anton-Regular";
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding-bottom: 5px;
+}
+
+.pro_offer_inner .overly h3 {
+    font-size: 37px;
+    font-family: "Anton-Regular";
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding-bottom: 5px;
+}
+
+.pro_offer_inner .overly p {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    filter: drop-shadow(0 0 25px #4d0148);
+    padding: 0 39px;
+    line-height: 23px;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 5px 3px 0px #ef8d22;
+    display: inline-block;
+}
+
+.pro_offer1 {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    animation: players1 16s infinite;
+}
+
+.pro_offer2 {
+    position: absolute;
+    right: 0;
+    top: 170px;
+    animation: playerss2 16s infinite;
+}
+
+.pro_offer3 {
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    animation: playerss3 16s infinite;
+}
+
+.pro_offer4 {
+    position: absolute;
+    left: -250px;
+    top: 170px;
+    animation: playerss4 16s infinite;
+}
+
+@keyframes players1 {
+    25% {
+        left: 39%;
+        top: 170px;
+    }
+
+    50% {
+        left: -40px;
+        top: 58%;
+    }
+
+    75% {
+        left: -250px;
+        top: 170px;
+    }
+
+    100% {
+        left: -40px;
+        top: 0;
+    }
+}
+
+@keyframes playerss2 {
+    25% {
+        right: 48.4%;
+        top: 58%;
+    }
+
+    50% {
+        right: 95.5%;
+        top: 170px;
+    }
+
+    75% {
+        right: 48%;
+        top: 0;
+    }
+
+    100% {
+        right: 0;
+        top: 170px;
+    }
+}
+
+@keyframes playerss3 {
+    25% {
+        left: -250px;
+        bottom: 160px;
+    }
+
+    50% {
+        left: -40px;
+        bottom: 330px;
+    }
+
+    75% {
+        left: 39%;
+        bottom: 160px;
+    }
+
+    100% {
+        left: -40px;
+        bottom: 0;
+    }
+}
+
+@keyframes playerss4 {
+    25% {
+        left: -40px;
+        top: 0;
+    }
+
+    50% {
+        left: 39%;
+        top: 170px;
+    }
+
+    75% {
+        left: -40px;
+        top: 58%;
+    }
+
+    100% {
+        left: -250px;
+        top: 170px;
+    }
+}
+
+/* ============================================================
+                       Player Promo Part Ends
+   ============================================================ */
+/* ============================================================
+                       Bonus Part Starts
+   ============================================================ */
+#bonus_part {
+    padding: 100px 0;
+    background: #150035;
+}
+
+
+.bonus_text_inner p {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Nunito-Light";
+    line-height: 30px;
+    padding-top: 12px;
+}
+
+.bonus_text_inner p span {
+    display: block;
+    padding-top: 30px;
+}
+
+/* ============================================================
+                       Bonus Part Ends
+   ============================================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================
+                       Menu Part Starts
+   ============================================================ */
+/* ============================================================
+                       Menu Part Ends
+   ============================================================ */

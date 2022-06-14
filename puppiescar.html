@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>PuppiesCar</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="Unknown" >
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="taxi/css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="taxi/css/style.css">
+<!-- Responsive-->
+<link href="taxi/css/fecha/bootstrap.min.css" rel="stylesheet">
+<link href="taxi/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="taxi/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="taxi/css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="taxi/images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="taxi/css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="taxi/css/owl.carousel.min.css">
+<link rel="stylesheet" href="taxi/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+		<style>
+		#map {
+			width: 100%;
+			height: 300px;
+			margin-top: 20px;
+		</style>
+</head>
+<body>
+	<!--header section start -->
+    
+		<div id="map"></div>
+    <!-- header section end -->
+    <!-- banner section start -->
+    <div class="banner_section">
+      <div class="container-fluid">
+        <div id="main_slider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="book_now">
+              <h1 class="book_text">LLamanos ahora:</h1>
+              <h1 class="call_text">(562)8509527</h1>
+            </div>
+            <div class="image_1"><img src="taxi/images/img-2.png"></div>
+          </div>
+          <div class="col-md-6">
+            <h1 class="booking_text">Reserve un PuppiesCar a su destino en la ciudad</h1>
+            <div class="contact_bg">
+            <div class="input_main">
+              <div class="container">
+					 <form action="" id="contactform">
+					 <div class="alert">Reservacion exitosa</div>
+                <h2 class="request_text">PuppiesCar Su compañero de viaje diario</h2>
+                <form action="/action_page.php">
+                <div class="form-group">
+						<b><label for="from-input">Recoger en:</label></b>
+                  <input type="search" class="form-control" id="from-input" placeholder="Donde nos vemos">
+                </div>
+                <div class="form-group">
+						<b><label for="to-input">Dejar en:</label></b>
+                  <input type="search" class="form-control" id="to-input" placeholder="A donde vamos">
+                </div>
+                <div class="form-group">
+						<b><label for="to-input">Cuando </label></b>
+                  <input type="search" class="form-control" id="cuando" placeholder="Hoy 8:30pm">
+                </div>
+                <div class="form-group">
+						<b><label for="to-input">Telefono </label></b>
+                  <input type="search" class="form-control" id="telefono" placeholder="777-163-9437">
+                </div>
+
+                  </form>
+                  </div> 
+                  </div>
+					<button id="submit" type="submit" class="btn btn-primary">Reservar</button>
+				<div id="form" class="form-horizontal col-sm-4">
+					<div class="form-group">
+						<b><label for="to-input">Distancia</label></b>
+						<label id="value-distance" class="form-text">Presiona en RESERVAR para calcular...</label>
+					</div>
+					<div class="form-group">
+						<b><label for="to-input">Precio Total</label></b>
+						<label id="value-price" class="form-text">Presiona en RESERVAR para calcular...</label>
+					</div>
+				</div>
+
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+    <i class="fa fa-angle-left"></i></a>
+  </a>
+  <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+    <i class="fa fa-angle-right"></i>
+  </a>
+  </a>
+</div>
+        
+      </div>
+    </div>
+		<div id="map"></div>
+		<script>
+		var markers = [];
+		var locations = [];
+		var map;
+		var distanceDirection;
+		var distanceDisplay;
+		function string2Location(input, index) {
+			var searchBox = new google.maps.places.SearchBox(input);
+			// map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+			map.addListener('bounds_changed', function() {
+				searchBox.setBounds(map.getBounds());
+			});
+			distanceDirection = new google.maps.DirectionsService();
+			distanceDisplay = new google.maps.DirectionsRenderer();
+			searchBox.addListener('places_changed', function() {
+				var places = searchBox.getPlaces();
+				if(places.length == 0) {
+					return;
+				}
+				markers[index].setMap(null);
+				var bounds = new google.maps.LatLngBounds();
+				places.forEach(function(place) {
+					if(!place.geometry) {
+						console.log("Returned place contains no geometry");
+						return;
+					}
+					var icon = {
+						url: place.icon,
+						size: new google.maps.Size(71, 71),
+						origin: new google.maps.Point(0, 0),
+						anchor: new google.maps.Point(17, 34),
+						scaledSize: new google.maps.Size(25, 25)
+					};
+					markers[index]=new google.maps.Marker({
+						map: map,
+						icon: icon,
+						title: place.name,
+						position: place.geometry.location
+					});
+					if(index == 0) {
+						locations[index]=place.geometry.location;
+					}
+					else {
+						locations[index]=place.geometry.location;
+					}
+					// console.log(locations[index].lat() + ", " + locations[index].lng());
+					if(place.geometry.viewport) {
+						bounds.union(place.geometry.viewport);
+					} else {
+						bounds.extend(place.geometry.location);
+					}
+				});
+				map.fitBounds(bounds);
+				distanceDisplay.setMap(map);
+			});
+		}
+		function initAutocomplete() {
+			locations[0] = new google.maps.LatLng();
+			locations[1] = new google.maps.LatLng();
+			markers[0] = new google.maps.Marker();
+			markers[1] = new google.maps.Marker();
+			map = new google.maps.Map(document.getElementById('map'), {
+				// Default position...
+				center: {
+					lat: 35.0823294,
+					lng: -106.8165662
+				},
+				zoom: 13,
+				// https://developers.google.com/maps/documentation/javascript/maptypes
+				mapTypeId: 'roadmap', // https://developers.google.com/maps/documentation/gaming/support/roadmap
+			});
+			var from = document.getElementById('from-input');
+			var to = document.getElementById('to-input');
+			string2Location(from, 0);
+			string2Location(to, 1);
+			google.maps.event.addDomListener(document.getElementById('submit'), 'click', calcRoute);
+		}
+		function calcDistance(start, end) {
+			return(google.maps.geometry.spherical.computeDistanceBetween(start, end) / 1000).toFixed(2); //KM
+		}
+		function calcRoute() {
+			var value_distance=document.querySelector("#value-distance");
+			var value_price=document.querySelector("#value-price");
+			var start = new google.maps.LatLng(locations[0].lat(), locations[0].lng());
+			var end = new google.maps.LatLng(locations[1].lat(), locations[1].lng());
+			var distance=calcDistance(start, end);
+			value_distance.innerHTML=distance;
+			value_price.innerHTML=(distance * 35) + "Pesos MXN"; // We can use .toFixed()...
+			var bounds = new google.maps.LatLngBounds();
+			bounds.extend(start);
+			bounds.extend(end);
+			map.fitBounds(bounds);
+			var request = {
+				travelMode: google.maps.TravelMode.DRIVING,
+				origin: start,
+				destination: end,
+			};
+			distanceDirection.route(request, function(response, status) {
+				if(status == google.maps.DirectionsStatus.OK) {
+					distanceDisplay.setDirections(response);
+					distanceDisplay.setMap(map);
+				}
+				else {
+					alert("Error: From " + start.toUrlValue(6) + " to " + end.toUrlValue(6) + " failed : " + status);
+				}
+			});
+		}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByrAUNRMrBwcIjow1msj9EO3w1v0bKZKI&libraries=places&callback=initAutocomplete" async defer></script>
+    <!-- banner section end -->
+    <!-- our taxis section start -->
+    <div id="taxis" class="taxis_section layout_padding">
+      <div class="container">
+        <h1 class="our_text">Flota <span style="color: #f4db31;">PuppiesCar</span></h1>
+        <div class="taxis_section_2">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="taxi_main">
+                <div class="round_1">01</div>
+                <h2 class="carol_text">750 kg</h2>
+                <p class="reader_text">Largo - 190cm  Ancho - 120cm    Alto = 1150cm<br> 
+                Peugeot partner </p>
+                <div class="images_2"><a href="#"><img src="taxi/images/imag1.png"></a></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="taxi_main">
+                <div class="round_1">02</div>
+                <h2 class="carol_text">2,000 kg</h2>
+                <p class="reader_text">Largo - 310cm  Ancho - 180cm    Alto = 180cm<br> 
+                Fiat® Ducato </p>
+                <div class="images_2"><img src="taxi/images/imag2.png"></a></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="taxi_main">
+                <div class="round_1">03</div>
+                <h2 class="carol_text">6,000 kg</h2>
+                <p class="reader_text">Largo - 510cm  Ancho - 233cm    Alto = 218cm<br> 
+                Toyota Hino </p>
+                <div class="images_2"><img src="taxi/images/imag3.png"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="location_sectin layout_padding">
+      <div class="container-fluid">
+        <div class="location_main">
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-5">
+              <div class="download_text">Descarga<br><span style="color: #fffcf4;">PuppiesCar Aplicacion</span></div>
+            </div>
+            <div class="col-sm-3">
+              <div class="image_7"><img src="taxi/images/img-7.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="copyright_section">
+    <div class="container">
+      <p class="copyright">2022 en colaboracion con <a href="https://html.design">Mascotas Coquetas</a></p>
+    </div>
+  </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="taxi/lib/easing/easing.min.js"></script>
+    <script src="taxi/lib/waypoints/waypoints.min.js"></script>
+    <script src="taxi/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="taxi/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="taxi/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="taxi/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Javascript files-->
+    <script src="taxi/js/jquery.min.js"></script>
+    <script src="taxi/js/popper.min.js"></script>
+    <script src="taxi/js/bootstrap.bundle.min.js"></script>
+    <script src="taxi/js/jquery-3.0.0.min.js"></script>
+    <script src="taxi/js/plugin.js"></script>
+    <script src="taxi/js/https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script>
+    <script src="taxi/js/main.js"></script>
+    <!-- sidebar -->
+    <script src="taxi/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="taxi/js/custom.js"></script>
+    <!-- javascript --> 
+    <script src="taxi/js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none"
+    });
+       
+    $(".zoom").hover(function(){
+         
+    $(this).addClass('transition');
+    }, function(){
+         
+    $(this).removeClass('transition');
+    });
+    });
+    </script> 
+    <script>
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+   document.getElementById("myNav").style.width = "0%";
+   }
+</script>   
+</body>
+</html>

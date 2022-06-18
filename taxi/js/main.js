@@ -10,7 +10,7 @@
 
 firebase.initializeApp(firebaseConfig);
 
-const contactFormDB = firebase.database()ref("contactForm");
+const PupiCarBD = firebase.database()ref("contactForm");
 
 document.getElementById("contactForm").addEventListener("submit",submitForm);
 
@@ -28,12 +28,12 @@ function submitForm(e) {
 
 	setTime(() => {
 	document.querySelector(".alert").style.display = "none";
-	},3000);
+	}, 3000);
 
 	document.getElementById("contactForm").reset();
 }
 	const saveMessages = (from-input,to-input,cuando,telefono) => {
-		var newContactForm = contactFormDB.push();
+		var newContactForm = PupiCarBD.push();
 		
 		newContactForm.set({
 			from-input: from-input,

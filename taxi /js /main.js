@@ -10,7 +10,7 @@
 
 firebase.initializeApp(firebaseConfig);
 
-const PupiCarBD = firebase.database()ref("contactForm");
+const pupicarbd = firebase.database()ref("contactForm");
 
 document.getElementById("contactForm").addEventListener("submit",submitForm);
 
@@ -33,7 +33,7 @@ function submitForm(e) {
 	document.getElementById("contactForm").reset();
 }
 	const saveMessages = (from-input,to-input,cuando,telefono) => {
-		var newContactForm = PupiCarBD.push();
+		var newContactForm = pupicarbd.push();
 		
 		newContactForm.set({
 			from-input: from-input,

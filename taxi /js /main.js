@@ -1,12 +1,11 @@
-  const firebaseConfig = {
-    apiKey: "AIzaSyCBEOy-PeuhyNYNSOxTzNbHhFvs7Xd2jDo",
-    authDomain: "pupicarbd.firebaseapp.com",
-    databaseURL: "https://pupicarbd-default-rtdb.firebaseio.com",
-    projectId: "pupicarbd",
-    storageBucket: "pupicarbd.appspot.com",
-    messagingSenderId: "976254780940",
-    appId: "1:976254780940:web:109828ab0ed3100bc51029"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyB804BmxINjhT786JwbVL_zSrAdYwzhJtM",
+  authDomain: "pupitaxi-5e99d.firebaseapp.com",
+  projectId: "pupitaxi-5e99d",
+  storageBucket: "pupitaxi-5e99d.appspot.com",
+  messagingSenderId: "1082842219401",
+  appId: "1:1082842219401:web:336969eb1c931251ad1758"
+};
 
 firebase.initializeApp(firebaseConfig);
 

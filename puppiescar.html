@@ -50,6 +50,32 @@
     
 		<div id="map"></div>
     <!-- header section end -->
+<script src="https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js"></script>
+
+<script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyB804BmxINjhT786JwbVL_zSrAdYwzhJtM",
+    authDomain: "pupitaxi-5e99d.firebaseapp.com",
+    projectId: "pupitaxi-5e99d",
+    storageBucket: "pupitaxi-5e99d.appspot.com",
+    messagingSenderId: "1082842219401",
+    appId: "1:1082842219401:web:336969eb1c931251ad1758"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
     <!-- banner section start -->
     <div class="banner_section">
       <div class="container-fluid">

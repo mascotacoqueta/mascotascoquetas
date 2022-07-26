@@ -65,7 +65,7 @@
                 <a class="dropdown-item" href="https://wa.me/message/WFLUSABQPFRQO1">Whatsapp</a>
                 <a class="dropdown-item" href="https://www.instagram.com/mas.cotitas_coquetas/">Instagram</a>
                 <a class="dropdown-item" href="https://t.me/mascotascoquetas">Telegram</a>
-                <a class="dropdown-item" href="https://wa.me/message/WFLUSABQPFRQO1">YouTube</a>
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCmx46HJGlegRfSLAWQ7p1GA">YouTube</a>
                 <a class="dropdown-item" href="https://odysee.com/@MascotasCoquetas">Odysee</a>
                 <a class="dropdown-item" href="https://vm.tiktok.com/ZMLHY5Qv1/">Tiktok</a>
               </div>
@@ -83,7 +83,7 @@
             </li>
 	          <li class="nav-item"><a href="vip.html" class="nav-link">Membresía</a></li>
 	          <li class="nav-item"><a href="http://eepurl.com/hMOGdH" class="nav-link">Inscríbete</a></li>
-	          <li class="nav-item cta cta-colored"><a href="carrito.html" class="nav-link"><span class="icon-shopping_cart"></span>Carrito</a></li>
+	          <li class="nav-item cta cta-colored"><a href="#" class="nav-link"><span class="icon-shopping_cart"></span>Carrito</a></li>
 
 	        </ul>
 	      </div>
@@ -123,13 +123,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón / Otoño</a></h3>
+		    						<h3><a href="#">100% algodón / Otoño</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$820 M$827 G$831 XG$840</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/3cs6pecarcvj2Mo7z1" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/5kA4h6fmDbrffza1aE" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/8wM5la4HZeDr2Mo8D7" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/4gwdRGdevcvj1Ik7z4" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -154,13 +157,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">Paca 100% - Otoño / invierno</a></h3>
+		    						<h3><a href="#">Paca 100% - Otoño / invierno</a></h3>
 		  							<div class="pricing">
 			    						<p class="price"><span class="price-sale">CH:$873 M$894 G$915 XG$936</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/00gaFudev9j73Qs06D" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/eVadRGfmD66V2MoaLi" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/dR6dRG6Q7cvj86If1z" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/7sI7ticarbrfcmYcTs" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -185,13 +191,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón / Todas las estaciones</a></h3>
+		    						<h3><a href="#">100% algodón / Todas las estaciones</a></h3>
 		  							<div class="pricing">
 			    						<p class="price"><span>CH:$723 M$738 G$746 XG$754</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/7sI6pe4HZ7aZev6g5I" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/4gw00Q3DV52R9aM6v5" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/8wM00Q7Ub7aZfzabPq" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/eVacNC4HZ3YN2MoaLn" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -216,13 +225,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">100% algodón - Otoño/Invierno</a></h3>
 		  							<div class="pricing">
 			    						<p class="price"><span>CH:$769 M$780 G$786 XG$790</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/7sIfZO2zRanbbiU8Dh" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/5kAbJygqHfHv2Mo06M" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/aEU8xmcar2UJ9aM3iZ" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/5kAfZO5M32UJ72E3j0" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -248,13 +260,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Todas las estaciones</a></h3>
+		    						<h3><a href="#">100% algodón - Todas las estaciones</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$599 M$608 G$612 XG$616</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/9AQeVKb6ngLzgDeaLt" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/bIY3d22zRcvj9aMf1K" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/3cs4h67UbgLz3Qs4n7" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/cN27ti3DVgLz2Mo2f0" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -279,13 +294,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">100% algodón - Otoño/Invierno</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$717 M$727 G$736 XG$742</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/9AQ4h65M366Vdr27zl" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/cN214U1vNcvjbiUf1O" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/28o5lacar9j74UwcTH" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/5kAaFu6Q7anbaeQ7zo" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -310,13 +328,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Todas las estaciones</a></h3>
+		    						<h3><a href="#">100% algodón - Todas las estaciones</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$679 M$685 G$694 XG$700</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="#" class="buy-now text-center py-2">Comprar<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/fZefZOdev3YN9aMdXN" class="buy-now text-center py-2">CH<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/6oEaFu0rJcvj2Mo2f6" class="buy-now text-center py-2">M<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/7sIfZO0rJdzn4Uw9Hz" class="buy-now text-center py-2">G<span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/4gw3d2gqHanb1Ik1b4" class="buy-now text-center py-2">XG<span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -342,13 +363,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">100% algodón - Otoño/Invierno</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$694 M$704 G$715 XG$721</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/8wM28Y5M30MBaeQcTN" class="buy-now text-center py-2">CH <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/5kAcNCfmDfHvaeQaLG" class="buy-now text-center py-2">M <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/3cs3d2b6ncvj5YAg61" class="buy-now text-center py-2">G <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/00gdRG8YfcvjbiU4nk" class="buy-now text-center py-2">XG <span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -374,13 +398,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">100% algodón - Otoño/Invierno</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$783 M$792 G$798 XG$804</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/8wM7ti2zRanbaeQg66" class="buy-now text-center py-2">CH <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/14kcNC7UbfHv9aM4nn" class="buy-now text-center py-2">M <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/9AQaFu0rJ7aZ3Qs8DC" class="buy-now text-center py-2">G <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/aEUcNCcar0MBcmY1b9" class="buy-now text-center py-2">XG <span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -405,13 +432,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% algodón - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">100% algodón - Otoño/Invierno</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$681 M$702 G$719 XG$725</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/cN27tidev52R5YAcTV" class="buy-now text-center py-2">CH <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/dR65ladevfHv5YA3jm" class="buy-now text-center py-2">M <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/00g7tia2j3YN86I7zD" class="buy-now text-center py-2">G <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/3cs5lacar8f3gDe2fk" class="buy-now text-center py-2">XG <span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -437,13 +467,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">50% Velcro - Otoño/Invierno</a></h3>
+		    						<h3><a href="#">50% Velcro - Otoño/Invierno</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$832 M$853 G$864 XG$874</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/9AQ7tidevanb86IaLV" class="buy-now text-center py-2">CH <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/cN29Bq7Ubdzn0EgcU2" class="buy-now text-center py-2">M <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/00g00Q5M37aZ72Eg6d" class="buy-now text-center py-2">G <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/00gfZO7Ub52R72E7zG" class="buy-now text-center py-2">XG <span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -469,13 +502,16 @@
 			    							</p>
 			    						</div>
 			    					</div>
-		    						<h3><a href="carrito.html">100% Algodón - Todas las estaciones</a></h3>
+		    						<h3><a href="#">100% Algodón - Todas las estaciones</a></h3>
 		    						<div class="pricing">
 			    						<p class="price"><span>CH:$827 M$834 G$842 XG$848</span></p>
 			    					</div>
 			    					<p class="bottom-area d-flex px-3">
 		    							
-		    							<a href="carrito.html" class="buy-now text-center py-2">Comprar <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/7sI6pe8Yfanbev6dY8" class="buy-now text-center py-2">CH <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/eVa00Q3DV66V1Ik9HT" class="buy-now text-center py-2">M <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/cN2eVK1vNbrf9aMcU6" class="buy-now text-center py-2">G <span><i class="ion-ios-cart ml-1"></i></span></a>
+		    							<a href="https://buy.stripe.com/9AQ4h6fmD0MB1Ik5rF" class="buy-now text-center py-2">XG <span><i class="ion-ios-cart ml-1"></i></span></a>
 		    						</p>
 		    					</div>
 		    				</div>
@@ -610,7 +646,7 @@
                              <div class="panel-body">
                                 <ul>
                                  	<li><a href="puppiescar.html">Puppies Car-Taxi</a></li>
-                                 	<li><a href="vet.html">Veterinaria</a></li>
+                                 	<li><a href="vete.html">Veterinaria</a></li>
                                  	<li><a href="spa.html">Estética & Spa</a></li>
                                  	<li><a href="dona.html">Donación a refugio</a></li>
                                  	<li><a href="hotel.html">Hotel - Pensión</a></li>
@@ -752,7 +788,7 @@
 
             <p>
 				
-                  Copyright &copy;2021 Todos los derechos reservados | Por Jeny Ocampo <i class="fa fa-heart-o" aria-hidden="true"></i> con <a href="https://utopiaartificial.github.io/" target="_blank">UtopiaArtificial</a>
+                  Copyright &copy;2022 Todos los derechos reservados | Por Jeny Ocampo <i class="fa fa-heart-o" aria-hidden="true"></i> con <a href="https://utopiaartificial.github.io/" target="_blank">UtopiaArtificial</a>
 			
 						</p>
           </div>
